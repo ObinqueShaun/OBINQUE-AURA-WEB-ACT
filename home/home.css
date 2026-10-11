@@ -1,0 +1,43 @@
+.hero {
+  min-height: 88vh;
+  color: #fff;
+  border-radius: 2em;
+}
+.hero-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5em;
+  max-width: 46em;
+  padding: 12vh 3em 8em;
+}
+.float {
+  position: absolute;
+  right: 5%;
+  bottom: 12%;
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  background: #fff;
+  color: var(--navy);
+  padding: 0.6em 1.4em 0.6em 0.6em;
+  border-radius: 1em;
+}
+.more {
+  position: absolute;
+  left: 3em;
+  bottom: 0;
+  background: var(--bg);
+  color: var(--navy);
+  padding: 1em 1.5em 0.8em;
+  border-radius: 1em 1em 0 0;
+  font-size: 0.75em;
+}
+.disappear {
+  margin-top: 1em;
+}
+.disappear .foot {
+  align-items: center;
+  margin-top: 1em;
+}

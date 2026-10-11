@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@300;400;500&display=swap");
+:root {
+  --navy: #0a2a47;
+  --lime: #e0f77f;
+  --bg: #f6f9f9;
+  --mist: #eaf0f3;
+  --grey: #5d7185;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  background: var(--bg);
+  color: var(--navy);
+  line-height: 1.5;
+}
+h1,
+h2,
+h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+}
+h1 {
+  font-size: clamp(2.6em, 7vw, 5.5em);
+}
+h2 {
+  font-size: clamp(2em, 5vw, 4em);
+}
+h3 {
+  font-size: clamp(1.4em, 2.5vw, 2em);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.page {
+  padding: 0 0.6em;
+}
+.section {
+  padding: 4em 2em;
+}
+.pagehead {
+  padding: 3em 2em 2em;
+}
+.label {
+  font-size: 0.7em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.muted {
+  color: var(--grey);
+}
+.small {
+  font-size: 0.85em;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.spread {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.intro {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+.intro p {
+  max-width: 24em;
+}
+.panel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 2em;
+}
+.mist {
+  background: var(--mist);
+}
+.navy {
+  background: var(--navy);
+  color: #fff;
+}
+.ph {
+  background: linear-gradient(135deg, #0d4a7a, #1aa3c4);
+}
+.cover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,42 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8em;
+  padding: 0.9em 1.4em;
+  border-radius: 3em;
+  font-size: 0.85em;
+  font-weight: 500;
+  background: var(--navy);
+  color: #fff;
+}
+.btn.lime {
+  background: var(--lime);
+  color: var(--navy);
+}
+.btn.white {
+  background: #fff;
+  color: var(--navy);
+}
+.link {
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 3em;
+  padding-bottom: 0.6em;
+  border-bottom: 0.06em solid var(--navy);
+  font-size: 0.85em;
+}
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6em;
+  height: 2.6em;
+  border-radius: 50%;
+  background: var(--lime);
+  flex: none;
+}
+.icon.o {
+  background: none;
+  border: 0.06em solid #b9c6d0;
+  border-radius: 0.8em;
+}

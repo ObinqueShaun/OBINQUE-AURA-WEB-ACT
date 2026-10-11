@@ -1,0 +1,6 @@
+.pagehead h1 {
+  max-width: 11em;
+}
+.story h2 {
+  font-size: clamp(1.8em, 4vw, 3em);
+}

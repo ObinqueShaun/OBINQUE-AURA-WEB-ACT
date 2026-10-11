@@ -1,0 +1,48 @@
+.dest {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 2em 0 1em;
+}
+.dest > .big {
+  flex: 1 1 24em;
+  min-height: 34em;
+}
+.stack {
+  flex: 1 1 24em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.card {
+  position: relative;
+  flex: 1;
+  min-height: 16em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5em;
+  border-radius: 1.6em;
+  overflow: hidden;
+  color: #fff;
+}
+.card > * {
+  position: relative;
+}
+.card.lime {
+  background: var(--lime);
+  color: var(--navy);
+  justify-content: space-between;
+}
+.card .tag {
+  position: absolute;
+  top: 1.2em;
+  left: 1.2em;
+  background: #fff;
+  color: var(--navy);
+  padding: 0.5em 1em;
+  border-radius: 2em;
+}
+.card.lime .label {
+  position: static;
+}
